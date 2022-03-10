@@ -1,0 +1,64 @@
+<html>
+<head> <title> My tribute page  </title>
+ <link rel="stylesheet" type ="text/css" href="Style.css">
+</head>
+<body>  
+<main id="main"> 
+<p>American President during civil war, helped end slavery</p>
+<h1 id="title"> Abraham Lincoln </h1>
+<img id="img-div"" src="https://www.biographyonline.net/images/150/250-Abraham_Lincoln.jpg" 
+alt="the president of the United States (1861–65), ">
+
+<figcaption id="tribute-info">
+    Abraham Lincoln, byname Honest Abe, the Rail-Splitter, or the Great Emancipator, (born February 12, 1809, 
+near Hodgenville, Kentucky, U.S. (died April 15, 1865, Washington, D.C.), 16th president of the United States (1861-65), 
+who preserved the Union during the American Civil War and brought about the emancipation of enslaved people in the United States.
+<section id="tribute-info">
+    <h3 id="headline">Here's a time line of Abraham Lincoln's life:</h3>
+    <ul>
+      <li><strong>1809</strong> - Born nearHodgenville, Kentucky, U.S </li>
+      <li>
+        <strong>1842</strong> - he married Mary Todd in 1842
+      </li>
+      <li>
+        <strong>1847</strong> - In 1847, he was elected to the House of Representatives for Illinois and served from 1847-49.
+      </li>
+      <li>
+        <strong>1858</strong> - Lincoln was nominated as Republican candidate for the Senate.
+      </li>
+      <li>
+        <strong>1860</strong> - Lincoln was also invited to give a notable address at Cooper Union in New York.
+      </li>
+      <li>
+        <strong>1862</strong> - Lincoln issued the Emancipation Proclamation that declared the freedom of slaves within the Confederacy.
+      </li>
+      <li>
+        <strong>1965</strong> -Five days after the surrender of Robert E. Lee and the Confederate Army, Lincoln was assassinated by John Wilkes Booth while visiting
+         Ford’s Theatre. Lincoln’s death was widely mourned across the country.
+      </li>
+    </ul>
+  
+  </section>
+  <h1>“We hold these truths to be self-evident: That all men are created equal”</h1>
+<h3> You can know more here!
+<a id="tribute-link" href="https://www.biographyonline.net/abraham-lincoln.html" target="_blank">Abraham Lincoln Biography</a>
+</h3>
+</main> 
+</body>
+</html>
+body {
+    font-family:sans-serif;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    color: rgb(12, 11, 11);
+    margin: 0;
+    text-align: justify;
+}
+#img-div{
+    width: 90%;
+    height: auto;
+    max-width: 625px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    }
